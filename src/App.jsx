@@ -151,10 +151,35 @@ function App() {
       )}
 
       {/* Footer */}
-      <footer style={{ marginTop: '60px', textAlign: 'center', color: '#444', borderTop: '1px solid #111', paddingTop: '20px', width: '100%' }}>
-        CipherScope Intelligence v1.0 | Data Science EDA Project
-      </footer>
-    </div>
+      <footer style={{ 
+  textAlign: 'center', 
+  padding: '50px 20px', 
+  marginTop: '60px', 
+  borderTop: `1px solid ${colors.accent}22`,
+  background: 'rgba(0,0,0,0.2)'
+}}>
+  <h3 style={{ color: colors.accent, marginBottom: '10px' }}>Noor Ul Aein</h3>
+  <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '14px' }}>
+    Data Scientist & Crypto Analyst
+  </p>
+
+  <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'center', gap: '20px' }}>
+    {/* LinkedIn Link */}
+    <a href="https://www.linkedin.com/in/noor-ul-aein-salamat-khan-7105323a2/" target="_blank" rel="noreferrer" style={{ color: colors.accent, textDecoration: 'none' }}>
+      LinkedIn
+    </a>
+
+    {/* Instagram Link (Apna user id yahan dal dein) */}
+    <a href="https://www.instagram.com/noorulaein477/" target="_blank" rel="noreferrer" style={{ color: '#e15f30ff', textDecoration: 'none', fontWeight: '500' }}>Instagram</a>
+    <a href="https://github.com/NoorUlAein-DS/CryptoPulse-Analytics-Project" target="_blank" rel="noreferrer" style={{ color: colors.accent, textDecoration: 'none' }}>
+  GitHub Code
+</a>
+  </div>
+
+  <p style={{ fontSize: '12px', marginTop: '30px', color: 'rgba(255,255,255,0.3)' }}>
+    © 2025 CryptoPulse Analytics| Built with React & CoinGecko API
+  </p>
+</footer> </div>
   );
 }
 
